@@ -25,7 +25,7 @@ public class UserServiceImplTest {
     private UserServiceImpl userServiceMock;
 
     @Test
-    public void findAll_shouldReturnUsersList() {
+    public void findAllShouldReturnUsersList() {
         List<User> expectedUsers = Arrays.asList(
                 new User(),
                 new User()

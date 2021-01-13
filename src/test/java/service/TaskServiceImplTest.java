@@ -25,7 +25,7 @@ public class TaskServiceImplTest {
     private TaskServiceImpl taskServiceMock;
 
     @Test
-    public void findAll_shouldReturnTasksList() {
+    public void findAllShouldReturnTasksList() {
                  List<Task> expectedTasks = Arrays.asList(
                         new Task(),
                         new Task()
